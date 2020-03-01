@@ -1,0 +1,2 @@
+insert into hamburgers (name) values ("Cheeseburger"), ("Double Cheeseburgers"), ("Bacon Cheeseburgers");
+insert into hamburgers (name, eaten) ("Veggie Burger", true), ("Heart Attack Burger", true), ("Turkey Burger", true);
