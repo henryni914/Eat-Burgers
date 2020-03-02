@@ -1,0 +1,19 @@
+<h1>Are you hungry for a burger?</h1>
+
+<h2>Burgers</h2>
+
+<ul>
+    {{#each hamburgers}}
+        {{#unless eaten}}
+            {{> burgers/burger-block eat=true}}
+        {{/unless}}
+    {{/each}}
+</ul>
+
+<ul>
+    {{#each hamburgers}}
+        {{#if eaten}}
+            {{> burgers/burger-block eat=false}}
+        {{/if}}
+    {{/each}}
+</ul>
